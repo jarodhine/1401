@@ -36,4 +36,5 @@ print(numlist)
 # TODO: use a list comprehension to create a list of all of the full_names
 # in lowercase format
 # lowercase_full_names =
-
+lower_names =[i.lower() for i in full_names]
+print(lower_names)
