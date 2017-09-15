@@ -1,6 +1,9 @@
 
-COLOURS = {"Colour1": "#000000", "Colour2": "#FF0000", "Colour3": "#00FF00", "Colour4": "#0000FF", "Colour5": "#F00000",
-           "Colour6": "#00F000", "Colour7": "#0000F0", "Colour8": "#0F0000", "Colour9": "#000F00", "Colour10": "#00000F"}
+COLOURS = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7",
+           "AntiqueWhite1": "#ffefdb", "AntiqueWhite2": "#eedfcc",
+           "AntiqueWhite3": "#cdc0b0","AntiqueWhite4": "#8b8378",
+           "aquamarine1": "#7fffd4", "aquamarine2": "#76eec6",
+           "aquamarine4": "#458b74", "azure1": "#f0ffff"}
 
 for k in COLOURS.keys():
     print(k)
