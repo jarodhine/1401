@@ -13,16 +13,16 @@ class Converter(App):
     def calculate(self):
         value = self.validMiles()
         result = value * M_TO_KM
-        self.root.ids.output_label.text = str(result)
+        self.root.ids.output.text = str(result)
 
     def increment(self, change):
         value = self.validMiles() + change
-        self.root.ids.input_miles.text = str(value)
+        self.root.ids.input.text = str(value)
         self.calculate()
 
     def validMiles(self):
         try:
-            value = float(self.root.ids.input_miles.text)
+            value = float(self.root.ids.input.text)
             return value
         except ValueError:
             return 0

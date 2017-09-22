@@ -3,12 +3,11 @@ BoxLayout:
     BoxLayout:
         orientation: 'horizontal'
         TextInput:
-            id: input_miles
-            text: ''
+            id: input
             font_size: 48
         BoxLayout:
             orientation: 'vertical'
-            size_hint_x: 0.25
+            size_hint_x: 0.20
             Button:
                 text: 'Up'
                 on_press: app.increment(1)
@@ -21,7 +20,6 @@ BoxLayout:
         on_press: app.calculate()
 
     Label:
-        id: output_label
+        id: output
         font_size: 48
-        text: ''
         color: (1, 1, 0, 1)
